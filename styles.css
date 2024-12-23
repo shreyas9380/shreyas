@@ -1,0 +1,57 @@
+
+/* General Body Styles */
+body {
+font-family: 'Arial', sans-serif;
+background-color: #fce4ec; /* Light pink background */
+margin: 0;
+padding: 0;
+color: #333;
+}
+/* Container for the form */
+.container {
+width: 50%;
+margin: 50px auto;
+background-color: #ffffff; /* White background for the form */
+padding: 40px;
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+border-radius: 15px; /* Rounded corners */
+text-align: center;
+}
+/* Header Styles */
+h2 {
+font-size: 2em;
+color: #e91e63; /* Pink color */
+margin-bottom: 20px;
+font-weight: bold;
+}
+/* Label Styles */
+label {
+display: block;
+margin: 12px 0 6px;
+font-size: 1.1em;
+color: #e91e63; /* Pink color */
+font-weight: bold;
+}
+/* Input and Button Styles */
+input {
+width: 100%;
+padding: 10px;
+margin: 5px 0 15px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 1rem;
+background-color: #f9f9f9;
+}
+button {
+padding: 10px 20px;
+background-color: #e91e63;
+color: #fff;
+border: none;
+border-radius: 5px;
+font-size: 1.2rem;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+button:hover {
+background-color: #d81b60;
+}
